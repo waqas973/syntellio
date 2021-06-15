@@ -1,0 +1,628 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans:ital@0;1&family=Signika+Negative:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-dark{
+    background: #BDC3C7;
+
+    color: rgb(255, 255, 255);
+}
+.navbar-brand{
+    font-size: 2.5rem;
+}
+
+nav .navbar-nav .nav-item .nav-link{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+  padding-right: 15px;
+ 
+
+}
+nav .navbar-nav .nav-item:last-child{
+ 
+  padding-right: 0px;
+
+}
+.dropdown .dropdown-menu .dropdown-item:hover{
+   background-color: #4AB9ED;
+   color: white;
+}
+.right-item .nav-item {
+    margin-right: 20px;
+}
+.right-item .nav-item:last-child {
+    margin-right: 0px;
+}
+.start-today{
+    border: none;
+    background:#4AB9ED;
+    outline: none;
+    padding: 9px 9px;
+    border-radius: 5px;
+    font-weight: bold;
+    white-space: nowrap;
+ 
+}
+
+nav .navbar-nav .nav-item .nav-link:hover{
+    color: #4AB9ED;
+}
+
+.right-item .nav-item:last-child .nav-link:hover{
+    color: #4AB9ED;
+    background: white;
+}
+.reviews-desc{
+    margin: 60px 0px;
+}
+.reviews-desc .info .title{
+    margin-bottom: 3rem;
+    
+    }
+.reviews-desc .info  h1{
+   font-weight: bold;
+ color: #7A7A7A;
+ font-size: 2.4rem;
+ margin-bottom: 15px;
+
+}
+.reviews-desc .info  p{
+    font-weight: 600;
+  color: #7A7A7A;
+ text-align: justify;
+ font-size: 17px;
+ 
+ }
+ .reviews-desc .info .desc{
+     margin-bottom: 45px;
+ }
+ .reviews-desc .info .btn-start-today{
+     background-color:#4AB9ED;
+     padding: 14px 50px;
+     border-radius: 25px;
+     -webkit-border-radius: 25px;
+     -moz-border-radius: 25px;
+     -ms-border-radius: 25px;
+     -o-border-radius: 25px;
+     color: white;
+     font-weight: bold;
+     text-decoration: none;
+     font-size: 1.2rem;
+}
+.reviews-desc .info .btn-start-today:hover{
+    color:white;
+   background-color: #BDC3C7;
+   
+}
+
+.reviews-desc .review-img img{
+
+  width: 100%;
+  height: 100%;
+}
+.business-reviews{
+    background-color: #4AB9ED;
+    margin: 5.7rem 0rem;
+}
+.business-reviews .container{
+   padding: 5rem 1rem;
+}
+.business-reviews h2{
+    text-align: center;
+    color: white;
+    font-size: 2.3rem;
+    font-weight: bold;
+    margin-bottom: 7rem;
+}
+.business-reviews img{
+    width: 140px;
+    height: 140px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.business-reviews .details{
+    margin-top: 3.4rem;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.business-reviews .details  h3{
+    font-size: 2rem;
+}
+.reviews-process .title{
+    margin-bottom: 4rem;
+    color: #7A7A8F;
+    text-align: center;
+  
+}
+.reviews-process .title h2{
+    font-weight: bold;
+    font-size: 2.4rem;
+}
+.reviews-process .details p{
+    color: #7A7A7A;
+    font-weight: 630;
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+.reviews-process .row{
+    margin: 5.5rem;
+    text-align: center;
+ margin-left: 5px;
+ margin-right: 5px; 
+    
+  
+}
+.reviews-process .features i{
+    color: #4AB9ED;
+    font-size: 4rem;
+    display: block;
+    margin: 0px auto;
+   
+    
+}
+.reviews-process .features .details{
+    margin-top: 3.4rem;
+    color: #4AB9ED;
+    
+}
+.reviews-process .features .details  h3{
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 1.2rem;
+  
+}
+.reviews-process .features  .details  p{
+    font-size: 1rem;
+    padding: 0;
+    text-align: center;
+    
+}
+.accept-cookie{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+      background-color: #2B373B;
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      padding: 10px;
+      align-items: center;
+      flex-wrap: wrap;
+
+  }
+  .accept-cookie  h6{
+      color: white;
+  }
+  .accept-cookie .btn-cookie{
+      color: black;
+      background-color: #FFD42D;
+      border: none;
+      outline: none;
+      border-radius: 5px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+      -o-border-radius: 5px;
+      padding: 6px 12px;
+}
+.pricing-plan{
+    background-color: #4AB9ED;
+}
+.pricing-plan .container{
+    padding: 5rem 1rem;
+ }
+ .pricing-plan .container .row{
+ margin-left:0px ;
+ margin-right: 0px;
+ }
+ .pricing-plan .title {
+   
+    margin-bottom: 7rem;
+}
+ .pricing-plan .title h2{
+     text-align: center;
+     color: white;
+     font-size: 2.5rem;
+     font-weight: bold;
+     margin-bottom: 0.7rem;
+ }
+ .pricing-plan .title h3{
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    /* margin-bottom: 7rem; */
+}
+.pricing-plan .col-lg-3{
+    padding-left:0px ;
+    padding-right:16px ;
+}
+.pricing-plan   .col-lg-3:last-child{
+
+    padding-right:0px ;
+}
+.pricing-plan .card{
+    background-color: #BDC3C7;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding-left:0px ;
+    padding-right:0px ;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.pricing-plan .card .card-body{
+    padding: 3rem 1rem  2rem;
+}
+.pricing-plan .card .card-body .card-title{
+     text-align: center;
+     color: white;
+     margin-bottom: 2.4rem;
+}
+.pricing-plan .card .card-body .card-title h4{
+   font-weight: bold;
+   font-size: 2.6rem;
+}
+.pricing-plan .card .card-body .card-title h4:first-child{
+    font-size: 1.2rem;
+ }
+.pricing-plan .card .card-body .card-title h4:last-child{
+    font-size: 2.5rem;
+    margin-top: 1.7rem;
+ }
+ .pricing-plan .card .card-body .card-text ul{
+  list-style: none;
+  color: white;
+  font-weight: bold;
+ }
+ .pricing-plan .card .card-body .card-text ul li{
+   border-top: 1px solid white;
+   padding: 5px 0px;
+   font-size: 0.8rem;
+   }
+   .pricing-plan .card .card-body .card-text ul li:last-child{
+    border-bottom: 1px solid white;
+    }
+    .pricing-plan .card .card-body .btn-link{
+           background-color: #4AB9ED;
+           padding: 13px 0px;
+           display: block;
+           width: 185px;
+           margin-left: auto;
+           margin-right: auto;
+           color: white;
+           font-weight: bold;
+           font-size: 1.2rem;
+           text-align: center;
+           border-radius: 35px;
+           -webkit-border-radius: 35px;
+           -moz-border-radius: 35px;
+           -ms-border-radius: 35px;
+           -o-border-radius: 35px;
+           text-decoration: none;
+}
+.pricing-plan .card .card-body .btn-link:hover{
+    background-color:white ;
+  
+    color: #4AB9ED;
+
+   
+}
+.customer-journey{
+    margin: 6rem 0rem;
+}
+.customer-journey .title{
+   font-weight: bold;
+   font-size: 2.4rem;
+   text-align: center;
+   padding: 0px 50px;
+   color: #7A7A7A;
+}
+.customer-journey .img-div {
+    margin: 3rem 0rem;
+}
+.customer-journey .img-div img {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+}
+.customer-journey h4{
+    color:#4AB9ED ;
+    font-weight: bold;
+}
+.customer-journey .text{
+    margin-top: 2rem;
+    color: #7A7A7A;
+    font-weight: bold;
+   
+}
+.contact{
+    margin-bottom: 3.5rem;
+}
+.contact .row .col-lg-4{
+    border: 1px solid #4AB9ED;
+}
+.contact address {
+    text-align: center;
+    padding: 20px ;
+    
+}
+.contact address h4{
+    color:#4AB9ED ;
+    font-size: 2.7rem;
+    font-weight: bold;
+    
+}
+.contact address h4{
+    color:#4AB9ED ;
+    font-size: 2.7rem;
+    font-weight: bold;
+    
+}
+.contact address .underline{
+    width: 50px;
+    height: 5px;
+    background-color: #4AB9ED;
+    margin: 10px auto;
+}
+.contact address .text p{
+  font-weight: bold;
+  color: #7A7A7A;
+  margin-bottom: 3px;
+}
+.contact .message-us {
+    background-color: #4AB9ED;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  .contact .message-us span {
+   margin-right: 15px;
+  }
+  .contact .message-us a{
+  color: white;
+   }
+  .contact .message-us h4:last-child:hover{
+   cursor: pointer;
+   text-decoration: underline;
+  }
+  footer{
+      background-color: #BDC3C7;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding:18px 0px;
+      
+  }
+  footer span{
+      color: white;
+      font-weight: bold;
+  }
+  footer span:first-child{
+    margin-right: 19px;
+}
+.signup .form-col{
+    padding: 0px 30px;
+}
+.signup .form-col h1{
+    color: #7A7A7A;
+    font-size: 1.7rem;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+.signup .form-col label{
+font-weight: bold;
+color: #8F7A7A;
+}
+.signup .form-col .form-row{
+    margin-bottom: 2rem;
+}
+.signup .form-col input{
+   border: 3px solid #BDC3C7;
+   outline: none;
+   border-radius: 8px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   -ms-border-radius: 8px;
+   -o-border-radius: 8px;
+}
+.signup .form-col input:focus{
+    border: 3px solid #4AB9ED;
+    outline: none;
+ }
+ .signup .form-col .get-access{
+     border:none;
+     outline: none;
+     color: white;
+     font-weight: bold;
+     display: block;
+     text-align: center;
+     width: 180px;
+     background-color: #4AB9ED;
+     padding:12px 0px;
+     margin-left: auto;
+     margin-right: auto;
+     border-radius: 35px;
+     -webkit-border-radius: 35px;
+     -moz-border-radius: 35px;
+     -ms-border-radius: 35px;
+     -o-border-radius: 35px;
+}
+.signup .form-col .get-access:hover{
+    color: white;
+    background-color: #BDC3C7; 
+}
+.signup .card{
+    background-color: #4AB9ED;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding-left:0px ;
+    padding-right:0px ;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.signup .card .card-body{
+    padding: 3rem 1rem  2rem;
+}
+.signup .card .card-body .card-title{
+     text-align: center;
+     color: white;
+     margin-bottom: 1.7rem;
+}
+.signup .card .card-body .card-title h4{
+   font-weight: bold;
+   font-size: 2.6rem;
+}
+
+.signup .card .card-body .card-title h4:first-child{
+    font-size: 1.2rem;
+ }
+.signup .card .card-body .card-title h4:last-child{
+    font-size: 2.8rem;
+    margin-top: 1rem;
+    text-transform: uppercase;
+ }
+ .signup .card .card-body .card-text ul{
+  list-style: none;
+  color: white;
+  font-weight: bold;
+ }
+ .signup .card .card-body .card-text ul li{
+   border-top: 1px solid white;
+   padding: 5px 0px;
+   font-size: 0.8rem;
+   }
+   .signup .card .card-body .card-text ul li:last-child{
+    border-bottom: 1px solid white;
+    }
+@media (max-width:992px) {
+    nav .navbar-nav .nav-item .nav-link{
+        padding-left:15px;
+    
+    }
+    .right-item .nav-item .start-today {
+    display: inline-block;
+    width:25%;
+    padding:8px 10px;
+    border-radius:10px ;
+    -webkit-border-radius:10px ;
+    -moz-border-radius:10px ;
+    -ms-border-radius:10px ;
+    -o-border-radius:10px ;
+    letter-spacing: -1px;
+}
+.reviews-desc{
+    margin: 8px 0px;
+}
+.reviews-desc .title{
+    margin-top: 40px;
+}
+.business-reviews h2{
+ 
+    margin-bottom: 5rem;
+}
+.business-reviews .details{
+    margin-top: 1.8rem;
+  
+}
+.reviews-process .features .details{
+    margin-top: 2.4rem;
+ 
+    
+}
+.contact {
+    margin-left:10px ;
+    margin-right: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.contact .message-us{
+    padding: 70px 0px;
+}
+.pricing-plan .col-lg-3{
+    padding-left:0px ;
+    padding-right:0px ;
+}
+}
+@media (min-width:772px) and (max-width:992px){
+    .reviews-desc{
+        margin-left: 7rem;
+        margin-right: 7rem;
+    }
+}
+@media (max-width:771px){
+    .customer-journey .title{
+ 
+        font-size: 2rem;
+  
+        padding: 0px 10px;
+      
+     }
+}
+@media  (max-width:420px){
+    .reviews-desc .info  h1{
+      font-size: 1.7rem;
+     }
+     .business-reviews h2{
+        font-size: 1.8rem;
+       
+    }
+    .business-reviews .details p{
+        font-size: 1.1rem;
+       
+    }
+    .reviews-process .title h2{
+        font-size: 1.67rem;
+    }
+    .reviews-process .details p{
+        font-size: 1.1rem;
+    }
+    .right-item .nav-item .start-today {
+      
+        width:100px;
+       
+    }
+    .pricing-plan .title h2{
+        font-size: 1.8rem;
+      
+    }
+    .pricing-plan .title h3{
+
+       font-size: 1rem;
+    
+   }
+   .customer-journey .title{
+ 
+    font-size: 1.5rem;
+
+    padding: 0px 4px;
+  
+ }
+ .signup .form-col h1{
+   
+    font-size: 1.19rem;
+  
+}
+}
